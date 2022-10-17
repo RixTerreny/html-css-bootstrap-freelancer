@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary-color:#1abc9c;
+    --secondary-color:#2c3e50;
+}
+
+
+
+/* header */
+header h3{
+    margin-bottom: 0%;
+    font-size: 1rem;
+}
+
+.bg-red{
+    height: 25px;
+    width: 100%;
+    background-color: red;
+}
+
+/* image */
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.starred-hr{
+    background-color: red;
+    height: 25px;
+}
+
+.text{
+    background-color: yellow;
+    height: 25px;
+}
+
+
+/* 2nd section */
+.card{
+    height: 300px;
+    background-color: green;
+}
+
+/* 3rd section */
+.parag{
+    height: 50px;
+    background-color: purple;
+}
+
+/* 4th section*/
+.mb-9{
+    margin-bottom: 9rem;
+}
+
+/* 5th section */
+.info{
+    height: 60px;
+    background-color: aqua;
+}
+
+/* Foooter */
+footer{
+    font-size: 0.8rem;
+}
