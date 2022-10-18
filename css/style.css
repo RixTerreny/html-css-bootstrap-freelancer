@@ -29,19 +29,41 @@
 }
 
 /* 3rd section, about*/
+.buttn{
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 0.3rem 1rem;
+}
 
 /* 4th section, contact me*/
 .mb-9{
     margin-bottom: 9rem;
 }
 
+
 /* 5th section */
-.info{
-    height: 60px;
-    background-color: aqua;
+h4{
+    color: white;
+    font-size: 1rem;
+}
+
+.max-width{
+    max-width: 250px;
+}
+
+.circle{
+    color: white;
+    border: 1px solid white;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    padding: 0.7rem;
+    width: 2.7rem;
 }
 
 /* Foooter */
 footer{
     font-size: 0.8rem;
 }
+
