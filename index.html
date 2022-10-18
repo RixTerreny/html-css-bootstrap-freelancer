@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e46bba45a.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css"> 
@@ -11,34 +12,54 @@
 </head>
 
 <body>
-    <header class="bg-secondary text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <h3>START BOOTSTRAP</h3>
-                </div>
-                
-                <div class="col-6 d-flex justify-content-end">
-                    <div class="bg-red col-sm-2"></div>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">BOOTSTRAP</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav d-none d-lg-flex">
+                    <li class="nav-item ">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+
 
     <main>
+        <!-- section 1 -->
         <section class="bg-primary py-4">
             <div class="container justify-content-center text-center col-md-6">
-                    <div class="m-auto col-2"><img src="img/avatar.svg" alt=""></div>
+                    <div class="m-auto col-6 col-lg-4"><img src="img/avatar.svg" alt=""></div>
                     <h1 class="text-white mt-3">START BOOTSTRAP</h1>
-                    <div class="starred-hr mt-3"></div>
-                    <div class="fs-4 text-white text-uppercase mt-3">graphic artist &#8211; web designer &#8211; illustrator</div>
+                    <div class="mt-3 d-flex align-items-center justify-content-center">
+                        <div class=" line col-5"></div>
+                        <i class="fa-solid fa-star col-2 text-white"></i>
+                        <div class=" line col-5"></div>
+                    </div>
+                    <div class="fs-6 text-white text-uppercase mt-3">graphic artist &#8211; web designer &#8211; illustrator</div>
             </div>
         </section>
 
+        <!-- section 2, portfolio -->
         <section class="bg-white py-4">
             <div class="container justify-content-center text-center">
                     <h2 class="text-secondary mt-3">PORTFOLIO</h2>
-                    <div class="starred-hr mt-3"></div>
+                    <div class="mt-3 d-flex align-items-center justify-content-center">
+                        <div class=" line-2 col-5"></div>
+                        <i class="fa-solid fa-star col-2 text-secondary"></i>
+                        <div class=" line-2 col-5"></div>
+                    </div>
 
                     <div class="row flex-wrap mt-3 ">
                         <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
@@ -69,23 +90,35 @@
             </div>
         </section>
 
+        <!-- section 3, about -->
         <section class="bg-primary py-4">
             <div class="container justify-content-center text-center">
                     <h1 class="text-white mt-3">ABOUT</h1>
-                    <div class="starred-hr mt-3"></div>
-                    <div class="d-flex flex-wrap">
-                        <div class="parag col-sm-12 col-md-6 mt-3 p-1"></div>
-                        <div class="parag col-sm-12 col-md-6 mt-3 p-1"></div>
+                    <div class="mt-3 d-flex align-items-center justify-content-center">
+                        <div class=" line col-5"></div>
+                        <i class="fa-solid fa-star col-2 text-white"></i>
+                        <div class=" line col-5"></div>
+                    </div>
+                    <div class="d-flex flex-wrap text-md-start">
+                        <p class="text-white col-12 col-md-6 mt-3 p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis rerum fuga nam ab dicta, cupiditate delectus facere repellendus quis facilis, quos vero, maiores quia expedita nobis placeat fugiat repudiandae illo.</p>
+                        <p class="text-white col-12 col-md-6 mt-3 p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa alias nostrum modi vero quo quisquam libero reiciendis possimus, eaque iure, tenetur accusamus. Libero totam minima, est enim numquam autem.</p>
                     </div>
 
-                    <button class="mt-4"> Download</button>
+                    <div class="mt-4">
+                        <button> Download</button>
+                    </div>
             </div>
         </section>
 
+        <!-- section 4, contact me -->
         <section class="bg-white py-4">
             <div class="container justify-content-center text-center">
                     <h1 class="text-secondary mt-3">CONTACT ME</h1>
-                    <div class="starred-hr mt-3"></div>
+                    <div class="mt-3 d-flex align-items-center justify-content-center">
+                        <div class=" line-2 col-5"></div>
+                        <i class="fa-solid fa-star col-2 text-secondary"></i>
+                        <div class=" line-2 col-5"></div>
+                    </div>
                     <div class="text mt-3"></div>
                     <hr>
                     <div class="text mt-3"></div>
@@ -101,6 +134,7 @@
             </div>
         </section>
 
+        <!-- section 5 -->
         <section class="bg-secondary py-4">
             <div class="container justify-content-center text-center">
                 <div class="row">
