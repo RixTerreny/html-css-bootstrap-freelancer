@@ -38,8 +38,23 @@
 }
 
 /* 4th section, contact me*/
-.mb-9{
-    margin-bottom: 9rem;
+input{
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+::placeholder{
+    color: #2d3f51;
 }
 
 
