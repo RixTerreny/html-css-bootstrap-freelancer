@@ -5,11 +5,12 @@
 }
 
 :root{
+    --bs-secondary-rgb: #1abc9c;
+    --bs-primary: #1abc9c;
     --primary-color:#1abc9c;
+    --bs-secondary: #2c3e50;
     --secondary-color:#2c3e50;
 }
-
-
 
 /* header */
 header h3{
@@ -23,30 +24,15 @@ header h3{
     background-color: red;
 }
 
-/* image */
-.img{
-    width: 100px;
-    height: 100px;
-    background-color: var(--secondary-color);
-    text-align: center;
-}
-
+/* 1st section */
 .starred-hr{
     background-color: red;
     height: 25px;
 }
 
-.text{
-    background-color: yellow;
-    height: 25px;
-}
-
 
 /* 2nd section */
-.card{
-    height: 300px;
-    background-color: green;
-}
+
 
 /* 3rd section */
 .parag{
